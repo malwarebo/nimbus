@@ -8,12 +8,12 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 find_package(TensorFlow REQUIRED)
 
-add_library(weather_model weather_model.cpp)
-target_include_directories(weather_model PUBLIC ${TensorFlow_INCLUDE_DIRS})
-target_link_libraries(weather_model ${TensorFlow_LIBRARIES})
+add_library(models weather_model.cpp)
+target_include_directories(models PUBLIC ${TensorFlow_INCLUDE_DIRS})
+target_link_libraries(models ${TensorFlow_LIBRARIES})
 
-add_executable(weather_forecasting main.cpp)
-target_link(weather_forecasting weather_model)
-target_include_directories(weather_forecasting PUBLIC ${TensorFlow_INCLUDE_DIRS})
-target_link_libraries(weather_forecasting weather_model ${TensorFlow_LIBRARIES})
+add_executable(nimbus main.cpp)
+target_link(nimbus models)
+target_include_directories(nimbus PUBLIC ${TensorFlow_INCLUDE_DIRS})
+target_link_libraries(nimbus models ${TensorFlow_LIBRARIES})
 
