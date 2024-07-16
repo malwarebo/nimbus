@@ -18,8 +18,8 @@ Install TensorFlow on your system by following the instructions in the official 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/skynet.git
-cd skynet
+git clone https://github.com/malwarebo/nimbus.git
+cd nimbus
 ```
 
 2. Create a build directory and configure
