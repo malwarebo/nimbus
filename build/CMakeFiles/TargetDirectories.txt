@@ -1,0 +1,4 @@
+/Users/irfan/projects/nimbus/build/CMakeFiles/models.dir
+/Users/irfan/projects/nimbus/build/CMakeFiles/nimbus.dir
+/Users/irfan/projects/nimbus/build/CMakeFiles/edit_cache.dir
+/Users/irfan/projects/nimbus/build/CMakeFiles/rebuild_cache.dir

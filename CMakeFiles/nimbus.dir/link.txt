@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/nimbus.dir/main.cpp.o -o nimbus  libmodels.a /opt/homebrew/lib/libtensorflow.dylib

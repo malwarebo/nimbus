@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/irfan/projects/nimbus/build",
+  "command": "/usr/bin/clang++ -I/opt/homebrew/include -I/Users/irfan/projects/nimbus -g -std=gnu++11 -arch arm64 -fPIC -o CMakeFiles/models.dir/models/weather_model.cpp.o -c /Users/irfan/projects/nimbus/models/weather_model.cpp",
+  "file": "/Users/irfan/projects/nimbus/models/weather_model.cpp",
+  "output": "CMakeFiles/models.dir/models/weather_model.cpp.o"
+},
+{
+  "directory": "/Users/irfan/projects/nimbus/build",
+  "command": "/usr/bin/clang++ -I/opt/homebrew/include -I/Users/irfan/projects/nimbus -g -std=gnu++11 -arch arm64 -fPIE -o CMakeFiles/nimbus.dir/main.cpp.o -c /Users/irfan/projects/nimbus/main.cpp",
+  "file": "/Users/irfan/projects/nimbus/main.cpp",
+  "output": "CMakeFiles/nimbus.dir/main.cpp.o"
+}
+]
